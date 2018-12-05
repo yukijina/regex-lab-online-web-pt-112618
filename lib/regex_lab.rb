@@ -1,6 +1,5 @@
 require 'pry'
 def starts_with_a_vowel?(word)
-  # \b start with a word boundary = start with 
   if word.match(/\A[aeiouAEIOU]/) != nil 
     true 
   else
